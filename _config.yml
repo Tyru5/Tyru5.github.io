@@ -71,7 +71,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : TirusTheVirus
 facebook:
   username               :
   app_id                 :
@@ -103,9 +103,9 @@ author:
   location         : "localghost:1337"
   email            : "tyrusm@hotmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:tyrusm@hotmail.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:tyrusm@hotmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://tyru5.github.io"
@@ -116,7 +116,7 @@ author:
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icown: "fab fa-fw fa-github"
       url: "https://github.com/tyru5"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -127,22 +127,22 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/TirustheVirus"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://tyru5.github.io"
+    # - label: "GitLab"
+    #   icon: "fab fa-fw fa-gitlab"
+    #   url:
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
+    #   url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/_tirusthevirus_"
 
 
 # Reading Files
@@ -261,7 +261,6 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
@@ -270,7 +269,19 @@ compress_html:
     envs: development
 
 
-# Defaults
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  # recipes: Will use this to create a collection for Nicols awesome food recipes!
+  #   output: true
+  #   permalink: /:collection/:path/
+  # pets: Will probably create a collection for caine at some point hehe
+  #   output: true
+  #   permalink: /:collection/:path/
+
+# Defaults for any pages, posts, collections or any other content:
 defaults:
   # _posts
   - scope:
@@ -283,3 +294,18 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
