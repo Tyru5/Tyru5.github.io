@@ -1,9 +1,10 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About Me"
+    url: https://www.youtube.com/watch?v=aAHD13mflps&ab_channel=TyrusMalmstrom # going to change this for sure later.
+    # Memes that I find are awesome, all topics!
+  - title : "Memes 😁"
+    url : /memes-archive/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
