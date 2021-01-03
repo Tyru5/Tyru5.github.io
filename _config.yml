@@ -9,15 +9,13 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
 theme                  : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Tyrus Malmstrom | Full-Stack Developer"
 title_separator          : "-"
-                         # site tagline that appears below site title in masthead
 subtitle                 : "Another individual on this planet that loves solving problems with code 🚀"
 name                     : "Tyrus Malmstrom"
 description              : "My website ( under construction )"
