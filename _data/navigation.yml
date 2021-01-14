@@ -1,9 +1,11 @@
 # main links
 main:
+  - title : Blog
+    url : /posts/
   - title: "About Me"
     url: /about-me/
     # Memes that I find are awesome, all topics!
-  - title : "Memes 😁"
+  - title : Memes 😁
     url : /memes-archive/
   # - title: "Sample Posts"
   #   url: /year-archive/
