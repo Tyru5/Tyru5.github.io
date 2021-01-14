@@ -92,32 +92,29 @@ analytics:
 # Site Author
 author:
   name             : "Tyrus Malmstrom"
-  avatar           : "/assets/images/tyrus_avatar_bio.jpg"
-  bio              : "I love Pizza, Programming, and People.
-                      Front-End Developer -- ❤️ all things Angular, Vue.js, React, and moar 🚀
-                      1 of 4 ( Quadruplet ).
-                      🏃 off ☕."
-  location         : "localghost:1337"
-  email            : "tyrusm@hotmail.com"
+  avatar           : "/assets/images/ty_avatar_0b1110.jpg"
+  bio              : "Enthusiastic, passionate, and adaptable software engineer who loves solving problems with code 🔎."
+  #location         : "localghost:1337"
+  #email            : "tyrusm@hotmail.com"
   links:
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
     #   url: "mailto:tyrusm@hotmail.com"
-    - label: "Website"
+    - label: "tiru5.com"
       icon: "fas fa-fw fa-link"
       url: "https://www.tiru5.com"
-    - label: "Twitter"
+    - label: "@TirusTheVirus"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/TirustheVirus"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icown: "fab fa-fw fa-github"
+    - label: "tyru5"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/tyru5"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/_tirusthevirus_"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/_tirusthevirus_"
 
 # Site Footer
 footer:
@@ -130,7 +127,7 @@ footer:
     #   url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://tyru5.github.io"
+      url: "https://github.com/tyru5"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   url:
