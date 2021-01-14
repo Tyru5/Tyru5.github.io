@@ -5,10 +5,8 @@ main:
   - title: "About Me"
     url: /about-me/
     # Memes that I find are awesome, all topics!
-  - title : Memes 😁
+  - title : Memes / Misc 😁
     url : /memes-archive/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
