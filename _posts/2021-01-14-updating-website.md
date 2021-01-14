@@ -1,5 +1,7 @@
 ---
 title : Updating my Website! 🚀
+title-align : center
+readme-align : center
 ---
 
 ```javascript
