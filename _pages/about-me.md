@@ -4,7 +4,7 @@ permalink: /about-me/
 author_profile : true
 toc: true
 toc_icon: "heart"
-tagline: "I love Pizza, Programming, and People.Front-End Developer -- ❤️ all things Angular, Vue.js, React, and moar 🚀 
+tagline: "I love Pizza, Programming, and People. Front-End Developer -- ❤️ all things Angular, Vue.js, React, and moar 🚀 
         1 of 4 ( Quadruplet ). 🏃 off ☕."
 read_time: true
 header:
