@@ -16,7 +16,7 @@ header:
 # Who am I?
 <!-- insert image here of me! -->
 
-Hey peeps 🐤!<img src="/assets/images/Hi.gif" width="30px">
+Hey peeps 🐤 !<img src="/assets/images/Hi.gif" width="30px">
 
 My name is Tyrus Malmstrom. I’m a Front-End Developer that is passionate in producing robust, reusable, and scalable code. 
 I am currently based in Fort Collins, Colorado.
