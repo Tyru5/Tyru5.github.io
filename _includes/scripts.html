@@ -26,3 +26,8 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<!-- Iterating over any potential scripst that I want to include -->
+{% for script in page.scripts %}
+<script {% for attr in script %} {{ attr | first }}="{{ attr | last }}" {% endfor %}></script>
+{% endfor %}
