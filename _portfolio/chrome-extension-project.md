@@ -1,7 +1,8 @@
 ---
 title: "Chrome Extension"
-excerpt: "A Chrome Extension to make your Amazon review image navigation more fluid."
+excerpt: "A Chrome Extension to make your Amazon image review navigation more fluid."
 read_time : true
+published : false
 header:
   teaser : /assets/images/amazon-portfolio/amazon_chrome_extension_icon_128x128.png
   overlay_image: /assets/images/amazon-portfolio/google-chrome-extensions.jpg
@@ -20,26 +21,20 @@ gallery:
     alt: "Showcasing enabling the extension"
 ---
 
-# My first Chome Extension
+# :thinking: :bulb: :exclamation:
+This was my first Chrome extension that I have ever implemented and released. It was such an awesome process, and I learned
+an insane amount! For instance, I learned how to work with and incorporate Chrome's ```runtime``` API, and create the 
+final bundle to upload to the Chrome webstore -- all of which would be expanded on later! 
 
-<br>
-<br>
+For a while now, it has been a goal of mine to create an extension for the browser 
+( whether that be Chrome, FireFox, MS Edge ( Chromium-based that is :smile: )
+and I finally did it! Feels great -- and I'm excited to share what I learned, and some aspects of the  process with you.
 
-<p align="center">
-<img width="128" height="128" src="https://github.com/Tyru5/Amazon-Customer-Image-Navigation/blob/main/assets/Amazon.Integration.Icons/Amazon.Integration.Icons/Gradiant/icon_128x128.png?raw=true">
-</p>
+# But why Ti...why?
+As stated earlier, it was always a goal of mine to create and implement an extension for the browser. I also wanted to
+challenge myself and work with something I have never worked with before. I also love learning, and I learned a lot from
+this project.
 
-<h3 align="center">Amazon Customer Review Image Navigation</h3>
-  <p align="center">
-    A Chrome Extension to make your Amazon experience better! :)
-    <br />
-    <br />
-    <a href="https://github.com/Tyru5/Amazon-Customer-Review-Image-Navigation/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Tyru5/Amazon-Customer-Review-Image-Navigation/issues">Request Feature</a>
-  </p>
-
-{% include gallery caption="Images showcasing how the Chrome extension looks once installed!" %}
 
 # About The Project
 Have you ever wanted to navigate Amazon's customer review images by using the keyboard? Well look no further,
@@ -51,6 +46,8 @@ This was an annoyance of mine, and thus my full motivation for implementing this
 This is a Chrome extension that allows you to navigate Amazon's customer review images in a more
 intuitive, seamless manner. It allows you to use the left and right arrows on your keyboard as well as allowing you
 to close the image pop-up modal by hitting the Escape key.
+
+{% include gallery caption="Images showcasing how the Chrome extension looks once installed!" %}
 
 ## Built With
 This chrome extension was built with the following libraries and tools :

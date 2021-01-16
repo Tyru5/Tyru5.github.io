@@ -3,6 +3,7 @@ title : About 👔
 permalink: /about-me/
 author_profile : true
 toc: true
+toc_sticky : true
 toc_icon: "heart"
 tagline: "I love Pizza, Programming, and People. Front-End Developer -- ❤️ all things Angular, Vue.js, React, and moar 🚀 
         1 of 4 ( Quadruplet ). 🏃 off ☕."
@@ -14,7 +15,7 @@ header:
 ---
 
 # Who am I?
-<!-- insert image here of me! -->
+<img src="/assets/images/ty-about-me.jpg" width="500px" style="border-radius: 50%"/>
 
 Hey peeps 🐤 !<img src="/assets/images/Hi.gif" width="30px">
 
