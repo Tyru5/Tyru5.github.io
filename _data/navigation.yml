@@ -4,10 +4,9 @@ main:
     url : /posts/
   - title: "About Me"
     url: /about-me/
+    # My own portfolio -- showcasing some of my own work and projects!
+  - title : Portfolio
+    url : /portfolio/
     # Memes that I find are awesome, all topics!
   - title : Memes / Misc 😁
     url : /memes-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
