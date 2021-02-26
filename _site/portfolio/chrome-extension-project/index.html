@@ -1,0 +1,552 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Chrome Extension - tiru5.com</title>
+<meta name="description" content="A Chrome Extension to make your Amazon image review navigation more fluid.">
+
+
+  <meta name="author" content="Tyrus Malmstrom">
+  
+  <meta property="article:author" content="Tyrus Malmstrom">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="tiru5.com">
+<meta property="og:title" content="Chrome Extension">
+<meta property="og:url" content="/portfolio/chrome-extension-project/">
+
+
+  <meta property="og:description" content="A Chrome Extension to make your Amazon image review navigation more fluid.">
+
+
+
+  <meta property="og:image" content="/assets/images/amazon-portfolio/google-chrome-extensions.jpg">
+
+
+
+  <meta name="twitter:site" content="@TirusTheVirus">
+  <meta name="twitter:title" content="Chrome Extension">
+  <meta name="twitter:description" content="A Chrome Extension to make your Amazon image review navigation more fluid.">
+  <meta name="twitter:url" content="/portfolio/chrome-extension-project/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/images/amazon-portfolio/google-chrome-extensions.jpg">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2021-02-25T22:53:21-08:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/portfolio/chrome-extension-project/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tyrus Malmstrom",
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="tiru5.com Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          tiru5.com
+          <span class="site-subtitle"></span>
+        </a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/posts/">Blog</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/about-me/">About Me</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/portfolio/">Portfolio / Projects</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/memes-archive/">Memes</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/music-recommendations/">Music</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/amazon-portfolio/google-chrome-extensions.jpg');">
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Chrome Extension
+
+        
+      </h1>
+      
+        <p class="page__lead">A Chrome Extension to make your Amazon image review navigation more fluid.
+</p>
+      
+      
+
+  <p class="page__meta" style="text-align:">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Chrome Extension">
+    <meta itemprop="description" content="A Chrome Extension to make your Amazon image review navigation more fluid.">
+    <meta itemprop="datePublished" content="2021-02-25T22:53:21-08:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+<li><a href="#thinking-bulb-exclamation"><img class="emoji" title=":thinking:" alt=":thinking:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png" height="20" width="20"> <img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> :exclamation</a></li>
+<li>
+<a href="#but-why-tiwhy">But why Ti…why?</a><ul>
+<li><a href="#what-i-wanted-to-accomplish-with-this-project">What I wanted to accomplish with this project</a></li>
+<li>
+<a href="#this-projects-future-what-do-i-want-to-add-to-it">This project’s future, what do I want to add to it?</a><ul><li><a href="#some-bulbs-i-have-so-far">Some <img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20">’s I have so far</a></li></ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#about-the-project">About The Project</a><ul>
+<li><a href="#tools-and-libraries-i-useed-to-build-this-project">Tools and Libraries I useed to build this project</a></li>
+<li><a href="#installation">Installation</a></li>
+</ul>
+</li>
+<li><a href="#license">License</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#updates">Updates</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h1 id="thinking-bulb-exclamation">
+<img class="emoji" title=":thinking:" alt=":thinking:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png" height="20" width="20"> <img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> :exclamation</h1>
+
+<p>This was my first Chrome extension that I have ever implemented and released. It was such an awesome process, and I learned
+an insane amount! For instance, I learned how to work with and incorporate Chrome’s <code class="language-plaintext highlighter-rouge">runtime</code> API, and create the
+final bundle to upload to the Chrome webstore.</p>
+
+<p>For a while now, it has been a goal of mine to create an extension for the browser
+( whether that be Chrome, FireFox, MS Edge, etc… ) and I finally did it! Feels great – and I’m excited to share what
+I learned, and some aspects of the process with you.</p>
+
+<h1 id="but-why-tiwhy">But why Ti…why?</h1>
+
+<p>Because why not??</p>
+
+<p>haha kidding <img class="emoji" title=":sweat_smile:" alt=":sweat_smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f605.png" height="20" width="20"></p>
+
+<p>As stated earlier, it was always a goal of mine to create and implement an extension for the browser. I also wanted to
+challenge myself and work with something I haven’t worked with before. I also love learning, and I learned a lot from
+this project.</p>
+
+<p>Lastly – If I am able to affect a single individual with this plugin, then that’s a win in my book.</p>
+
+<h2 id="what-i-wanted-to-accomplish-with-this-project">What I wanted to accomplish with this project</h2>
+
+<p>I  had two goals in mind when I initially started this project.</p>
+
+<ul>
+  <li>First and foremost – learn something new and challenge myself! <img class="emoji" title=":rocket:" alt=":rocket:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png" height="20" width="20">
+</li>
+  <li>Create a Chrome extension that would benefit the user who is using it. Create a solution to an observation.</li>
+</ul>
+
+<h2 id="this-projects-future-what-do-i-want-to-add-to-it">This project’s future, what do I want to add to it?</h2>
+
+<p>Great question – and a question that I have thought about quite a bit! I would love to further expand on the extensions’ functionality
+and also improve some of it’s UI/UX.</p>
+
+<h3 id="some-bulbs-i-have-so-far">Some <img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20">’s I have so far</h3>
+
+<ul>
+  <li>Create a new UI/view that would house the amazon product image(s) that the user saved. So essentially a collection view. This could serve as a quick reference to a product that a user found interesting on amazon rather than looking through their bookmarks or searching for the product again on amazon.</li>
+  <li>Add a review / rating feature for the extension for the user to provide feeback and constructive criticism!</li>
+  <li>Redesign the main popup view UI to be more intuitive and easier to manage, especially if I am going to be creating a new collection view for the images.</li>
+</ul>
+
+<h1 id="about-the-project">About The Project</h1>
+
+<p>Have you ever wanted to navigate Amazon’s customer review images by using the keyboard? Well look no further,
+now you can! (end cheesy infomercial here <img class="emoji" title=":sweat_smile:" alt=":sweat_smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f605.png" height="20" width="20">)</p>
+
+<p>This was an annoyance of mine, and thus my full motivation for implementing this chrome extension. Okay, I wouldn’t say
+full motivation haha however it was a huge contributing factor, for sure!</p>
+
+<p>At the end of the day I wanted to implement a simple solution, to a daily occurrence / observation of mine.</p>
+
+<p>This Chrome extention, allows you to navigate Amazon’s customer review images in a more intuitive, seamless manner.
+It allows you to use the left and right arrows on your keyboard as well as allowing you
+to close the image pop-up modal by hitting the Escape key.</p>
+
+<p>Below, are a few images showcasing how the extension looks once you have installed it!</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/amazon-portfolio/amazon-gallery-1.png">
+          <img src="/assets/images/amazon-portfolio/amazon-gallery-1.png" alt="Main extension menu">
+      </a>
+    
+  
+    
+      <a href="/assets/images/amazon-portfolio/amazon-gallery-2.png">
+          <img src="/assets/images/amazon-portfolio/amazon-gallery-2.png" alt="Showcasing disabling the extension">
+      </a>
+    
+  
+    
+      <a href="/assets/images/amazon-portfolio/amazon-gallery-3.png">
+          <img src="/assets/images/amazon-portfolio/amazon-gallery-3.png" alt="Showcasing enabling the extension">
+      </a>
+    
+  
+  
+    <figcaption>Images showcasing how the Chrome extension looks once installed!
+</figcaption>
+  
+</figure>
+
+<h2 id="tools-and-libraries-i-useed-to-build-this-project">Tools and Libraries I useed to build this project</h2>
+
+<p>This Chrome extension was built with the following libraries and tools :</p>
+
+<ul>
+  <li>
+<a href="https://fontawesome.com/">Font Awesome</a> – font and icon toolkit based on CSS and Less.</li>
+  <li>
+<a href="https://izitoast.marcelodolza.com/">iziToast</a> – Elegant, responsive, flexible and lightweight notification plugin with no dependencies.</li>
+  <li>
+<a href="https://jquery.com">JQuery</a> – Come on, it’s JQuery! Needs no introduction <img class="emoji" title=":grin:" alt=":grin:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f601.png" height="20" width="20">
+</li>
+  <li>
+<a href="https://parceljs.org/">Parcel</a> – Blazing fast, zero configuration web application bundler</li>
+  <li>
+<a href="https://atomiks.github.io/tippyjs/">Tippy.js</a> – the complete tooltip, popover, dropdown, and menu solution for the web</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<ol>
+  <li>Navigate to the Chrome Webstore and download extension!
+    <ul>
+      <li><a href="https://chrome.google.com/webstore/detail/amazon-customer-review-im/fccjockkgecijdiogeebaefkdpkobmdo">Chrome Webstore</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>Also, if you found this extension useful in anyway – bad or good, please leave a review! It would really help me out and I would greatly appreciate it!</p>
+
+<!-- LICENSE -->
+<h1 id="license">License</h1>
+
+<p>Distributed under the MIT License. See <code class="language-plaintext highlighter-rouge">LICENSE</code> for more information.</p>
+
+<!-- CONTACT -->
+<h1 id="contact">Contact</h1>
+
+<ul>
+  <li>Tyrus Malmstrom
+    <ul>
+      <li>
+<a href="https://twitter.com/TirustheVirus">@TirustheVirus</a> - tyrusm@hotmail.com</li>
+    </ul>
+  </li>
+  <li>Linnea Malmstrom
+    <ul>
+      <li>
+<a href="https://dribbble.com/LinneasMaximus">Dribble</a> - linnea-malmstrom@hotmail.com</li>
+    </ul>
+  </li>
+  <li>Project Link:
+    <ul>
+      <li><a href="https://github.com/Tyru5/Amazon-Customer-Review-Image-Navigation">https://github.com/Tyru5/Amazon-Customer-Review-Image-Navigation</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="updates">Updates</h1>
+
+<ul>
+  <li>Somebody forked my project on github! I think that is pretty cool <img class="emoji" title=":heart_eyes_cat:" alt=":heart_eyes_cat:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f63b.png" height="20" width="20">
+</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-02-25T22:53:21-08:00">February 25, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=TirusTheVirus&amp;text=Chrome+Extension%20%2Fportfolio%2Fchrome-extension-project%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fportfolio%2Fchrome-extension-project%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2Fportfolio%2Fchrome-extension-project%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/TirustheVirus" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/tyru5" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/_tirusthevirus_" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2021 Tyrus Malmstrom. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+<!-- Iterating over any potential scripst that I want to include -->
+
+
+
+  </body>
+</html>
