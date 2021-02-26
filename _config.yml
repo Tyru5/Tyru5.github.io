@@ -215,6 +215,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-youtube
   - jekyll-feed
   - jekyll-include-cache
   - jemoji
@@ -272,7 +273,10 @@ collections:
   memes:
     output : true
     permalink : /:collection/:path/
-  # recipes: Will use this to create a collection for Nicols awesome food recipes!
+  music:
+    output : true
+    permalink : /:collection/:path/
+  # recipes: Will use this to create a collection for Nicoles awesome food recipes!
   #   output: true
   #   permalink: /:collection/:path/
   # pets: Will probably create a collection for caine at some point hehe
@@ -311,6 +315,14 @@ defaults:
   - scope:
       path: ""
       type: memes
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _music
+  - scope:
+      path: ""
+      type: music
     values:
       layout: single
       author_profile: false

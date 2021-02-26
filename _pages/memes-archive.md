@@ -1,4 +1,5 @@
 ---
+title : All the memes!
 layout: collection
 permalink: /memes-archive/
 collection : memes
