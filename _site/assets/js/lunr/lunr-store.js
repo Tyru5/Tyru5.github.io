@@ -12,7 +12,7 @@ var store = [{
         "teaser": "/assets/images/new-javascript-framework.png"
       },{
         "title": "NF - Lost in the Moment",
-        "excerpt":"       This song means a lot to me :heart:  ","categories": [],
+        "excerpt":"      This song means a lot to me :heart:  ","categories": [],
         "tags": [],
         "url": "/music/2021-02-25-NF-Lost-In-The-Moment/",
         "teaser": "/assets/images/music/NF/NF_Lost_In_The_Moment.png"
