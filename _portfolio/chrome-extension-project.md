@@ -20,7 +20,7 @@ gallery:
     alt: "Showcasing enabling the extension"
 ---
 
-# :thinking: :bulb: :exclamation
+# :thinking: :bulb: :exclamation:
 
 This was my first Chrome extension that I have ever implemented and released. It was such an awesome process, and I learned
 an insane amount! For instance, I learned how to work with and incorporate Chrome's ```runtime``` API, and create the

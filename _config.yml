@@ -112,9 +112,10 @@ author:
     - label: "tyru5"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tyru5"
-    - label: "Resume"
-      icon: "far fa-file"
-      url: "/assets/resume/Tyrus_Malmstrom_Resume_0b1101.pdf"
+    # Old resume reference, not needed anymore.
+    # - label: "Resume"
+    #   icon: "far fa-file"
+    #   url: "/assets/resume/Tyrus_Malmstrom_Resume_0b1101.pdf"
 
 # Site Footer
 footer:
